@@ -19,7 +19,6 @@ if (env) {
 const common = ['./src/common.js']
 
 const ASSET_PATH = process.env.ASSET_PATH || '/'
-console.log("🚀 ~ file: webpack.common.js:20 ~ process.env:", process.env.CLIENT_ID)
 
 const plugins = [
   new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
