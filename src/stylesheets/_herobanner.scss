@@ -9,9 +9,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    color: $white;
     display: flex;
     align-items: center;
+    color: $white;
     margin: 0 !important;
 
     @include media-query-large {
@@ -19,7 +19,8 @@
     }
 
     @include media-query-xlarge {
-      background-image: url('/images/banner-image-desktop.jpg');
+      background-color: $green;
+      background-image: url('/images/cover-tech-radar.jpg');
       height: $bannerHeight;
       background-size: cover;
     }
