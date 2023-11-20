@@ -2,7 +2,24 @@
 @import 'layout';
 
 header {
-  text-align: center;
+  padding: 10px 0;
+}
+.header {
+  &__logo {
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    border-bottom: none;
+    border-bottom: none;
+    float: none;
+    margin: 0 auto;
+    a {
+      display: block;
+      text-decoration: none;
+      border-bottom: none;
+      width: 100%;
+    }
+  }
 }
 
 .radar-title,

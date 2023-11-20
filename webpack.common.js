@@ -12,11 +12,14 @@ const env = args.envFile
 if (env) {
   // Load env file
   require('dotenv').config({ path: env })
+} else {
+  require('dotenv').config()
 }
 
 const common = ['./src/common.js']
 
 const ASSET_PATH = process.env.ASSET_PATH || '/'
+console.log("🚀 ~ file: webpack.common.js:20 ~ process.env:", process.env.CLIENT_ID)
 
 const plugins = [
   new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),

@@ -3347,12 +3347,6 @@ html[lang='es'] .mega-menu.grid#what_we_do a.menu-item__link[data-event-label='i
 .header__header-wrapper:after {
   clear: both;
 }
-.header__logo {
-  border-bottom: none;
-  float: left;
-  width: 200px;
-  margin-top: -6px;
-}
 .header__menu {
   margin: 0;
   padding: 0;
